@@ -1,4 +1,4 @@
-package main.java.ir.maktab.Main;
+package main.java.ir.maktab;
 
 import main.java.ir.maktab.classes.Car;
 import main.java.ir.maktab.classes.Window;
