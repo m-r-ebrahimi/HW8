@@ -1,8 +1,7 @@
-package main.java.ir.maktab.classes;
-
-import main.java.ir.maktab.classes.Turner;
+package ir.maktab.classes;
 
 public class Leaf implements Turner {
+
     private String firstColor;
     private String secondColor;
 

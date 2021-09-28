@@ -1,7 +1,4 @@
-package main.java.ir.maktab;
-
-import main.java.ir.maktab.classes.Car;
-import main.java.ir.maktab.classes.Window;
+package ir.maktab.classes;
 
 public class DemoTurners2 {
     public static void main(String[] args) {

@@ -1,8 +1,4 @@
-package main.java.ir.maktab;
-
-import main.java.ir.maktab.classes.Leaf;
-import main.java.ir.maktab.classes.Page;
-import main.java.ir.maktab.classes.Pancake;
+package ir.maktab.classes;
 
 public class DemoTurners {
     public static void main(String[] args) {
@@ -14,5 +10,4 @@ public class DemoTurners {
         page.turn();
         pancake.turn();
     }
-
 }

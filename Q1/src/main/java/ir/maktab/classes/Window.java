@@ -1,4 +1,4 @@
-package main.java.ir.maktab.classes;
+package ir.maktab.classes;
 
 public class Window implements Turner {
     private boolean isOpen;

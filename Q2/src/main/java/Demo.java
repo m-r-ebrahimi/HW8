@@ -2,7 +2,6 @@ package main.java;
 
 import java.io.DataInputStream;
 import java.io.IOException;
-import java.util.Scanner;
 import java.util.Stack;
 
 public class Demo {
