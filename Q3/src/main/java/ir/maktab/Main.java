@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String[] str = null;
-        //String[] str = {"ali", "reza"};
+        //String[] str = null;
+        String[] str = {"ali", "reza"};
         try {
             demo(str);
         } catch (NullPointerException ne) {
