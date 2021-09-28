@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Demo {
     public static void main(String[] args) {
-        char[] ch = {'1', 'a', '3'};
+        char[] ch = {'1', '2', '3'};
         try {
             try {
                 run1(ch);
