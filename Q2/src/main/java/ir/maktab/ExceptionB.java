@@ -1,4 +1,4 @@
-package main.java;
+package ir.maktab;
 
 public class ExceptionB extends ExceptionA {
     public ExceptionB(String message) {

@@ -1,6 +1,6 @@
-package main.java;
+package ir.maktab;
 
-public class ExceptionA extends Exception{
+public class ExceptionA extends Exception {
     public ExceptionA(String message) {
         super(message);
     }

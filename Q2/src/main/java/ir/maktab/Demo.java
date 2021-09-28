@@ -1,12 +1,11 @@
-package main.java;
+package ir.maktab;
 
 import java.io.DataInputStream;
 import java.io.IOException;
-import java.util.Stack;
 
 public class Demo {
     public static void main(String[] args) {
-        char[] ch = {'a', '2', 'b'};
+        char[] ch = {'1', 'a', '3'};
         try {
             try {
                 run1(ch);
@@ -20,25 +19,17 @@ public class Demo {
             System.out.print("Enter Second No:");
             int num2 = Integer.parseInt(X.readLine());
             run2(num1, num2);
-        } catch (ExceptionB eb) {
+        } catch (ExceptionB | NullPointerException eb) {
             eb.printStackTrace();
-        } catch (NullPointerException npe) {
-            npe.printStackTrace();
         } catch (IOException ioe) {
             System.out.println("IO Error");
         }
-
     }
 
     public static void run1(char... ch) throws ExceptionA {
-        Stack<Character> chars = new Stack<>();
-        for (char character : ch) {
-            chars.push(character);
-        }
-
-        while (chars != null) {
-            char c = chars.pop();
-            if (!Character.isDigit(c))
+        int i = ch.length;
+        while (i > 0) {
+            if (!Character.isDigit(ch[--i]))
                 throw new ExceptionA("Character i not digit.");
         }
     }
